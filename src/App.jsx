@@ -1,12 +1,15 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
+import Login from './auth/login/Login'
+// import Daftar from './auth/daftar/Daftar'
 
 function App() {
   return (
-    <div className='w-full h-10 bg-slate-900'>
-      <h1 className="text-3xl font-bold underline font-serif text-white">
-      testing...
-      </h1>
-    </div>
+    <>
+    <Login />
+    {/* <Daftar /> */}
+
+    </>
   )
 }
 
