@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LifeBloodID</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-lg-6 left-section d-none d-lg-block">
+          <div class="image-container">
+            <div class="background-overlay"></div>
+            <img
+              src="img/login.jpeg"
+              alt="LifeBloodID"
+              class="img-fluid main-image"
+            />
+            <div class="image-overlay"></div>
+            <div class="text-overlay">
+              <img src="img/logo.png" alt="Logo" class="logo" />
+              <p>
+                Mulailah perjalanan kebaikanmu dengan satu tetes yang berarti
+                bagi mereka yang membutuhkan
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-6 right-section d-flex align-items-center justify-content-center"
+        >
+          <div class="login-container">
+            <h2>Selamat Datang</h2>
+            <form id="loginForm">
+              <div class="form-group">
+                <label for="email">Alamat Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="form-group">
+                <label for="password">Kata Sandi</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                />
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="stayLoggedIn"
+                />
+                <label class="form-check-label" for="stayLoggedIn"
+                  >Buat saya tetap masuk</label
+                >
+              </div>
+              <button type="submit" class="btn btn-danger btn-block">
+                <a href="index.html" style="color: #ffff">Login</a>
+              </button>
+              <div class="links text-center">
+                <a href="#">Lupa Kata Sandi</a>
+                <p>Belum Memiliki Akun? <a href="register.html">Daftar</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
